@@ -11,3 +11,6 @@ apt-get --yes update
 apt-get install -y puppetserver
 
 ```
+
+# DNS Settings inside AWS
+Create an ElasticIP tied to an instance/network interface. Then create a Route53 CNAME record pointing to the elasticIP dns name.
